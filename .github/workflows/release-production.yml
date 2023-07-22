@@ -2,6 +2,7 @@ name: Release Production Environment
 
 on:
   push:
+    branches: [test-ci]
     tags: [ v* ]
 
 env:
